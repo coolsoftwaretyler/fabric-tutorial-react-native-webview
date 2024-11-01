@@ -9,6 +9,14 @@
     "start": "react-native start",
     "test": "jest"
   },
+  "codegenConfig": {
+    "name": "AppSpec",
+    "type": "components",
+    "jsSrcsDir": "specs",
+    "android": {
+      "javaPackage": "com.webview"
+    }
+  },
   "dependencies": {
     "react": "18.3.1",
     "react-native": "0.76.1"
